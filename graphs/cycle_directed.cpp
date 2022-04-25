@@ -35,10 +35,10 @@ int main(){
     vector<int> adj[V];
     addEdge(adj, 0, 1);
     addEdge(adj, 0, 2);
-    addEdge(adj, 1, 0);
-    addEdge(adj, 2, 0);
+    //addEdge(adj, 1, 0);
+    //addEdge(adj, 2, 0);
     addEdge(adj, 2, 3);
-    addEdge(adj, 3, 3);
+    //addEdge(adj, 3, 3);
     if (hasCycle(adj, V))
         cout << "The graph has cycles";
     else
